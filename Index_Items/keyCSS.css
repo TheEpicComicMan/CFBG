@@ -46,7 +46,7 @@ div.Sean{
 div.Sophia{
 	border: solid;
 	background-color: purple;
-	color: lack;
+	color: black;
 }
 
 
@@ -78,7 +78,6 @@ width: 1000px;
 /* All other non-IE browsers.                                        */
 html>body div.tableContainer table {
 width: 1000px;
-background-color:white;
 }
 
 /* set table header to a fixed position. WinIE 6.x only                                       */
