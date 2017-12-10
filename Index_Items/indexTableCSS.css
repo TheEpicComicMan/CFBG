@@ -30,34 +30,42 @@ width: 100%
 }
 /* number */
 html>body thead.fixedHeader th {
-width: 172px;
+width: 310px;
 }
 /* date */
 html>body thead.fixedHeader th + th {
-width: 175px;
+width: 400px;
 }
 /* bowl */
 html>body thead.fixedHeader th + th + th {
-width: 225px;
+width: 420px;
 }
 /* t1 */
 html>body thead.fixedHeader th + th + th + th {
-width: 226px;
+width: 425px;
 }
 /* t2 */
 html>body thead.fixedHeader th + th + th + th + th {
-width: 235px;
+width: 435px;
 }
+
+/* td items */
 html>body tbody.scrollContent td {
-width: 400px
+width: 410px
 }
 
 html>body tbody.scrollContent td + td {
-width: 400px
+width: 410px
 }
 
 html>body tbody.scrollContent td + td + td {
-width: 400px
+width: 420px
+}
+html>body tbody.scrollContent td + td + td +  td {
+width: 425px
+}
+html>body tbody.scrollContent td + td + td +  td +  td  {
+width: 435px
 }
 
 /* My Original CSSS */
