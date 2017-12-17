@@ -1,0 +1,140 @@
+div.tableContainer {
+clear: both;
+height: 400px;
+overflow: auto;
+width: 1000px;
+margin-left: 50px;
+}
+html>body div.tableContainer {
+overflow: hidden;
+width: 1000px;
+}
+div.tableContainer table {
+float: left;
+width: 1000px;
+}
+html>body div.tableContainer table {
+width: 1000px;
+}
+thead.fixedHeader tr {
+position: relative
+}
+html>body thead.fixedHeader tr {
+display: block
+}
+html>body tbody.scrollContent {
+display: block;
+height: 300px;
+overflow: auto;
+width: 100%
+}
+/* number */
+html>body thead.fixedHeader th {
+width: 390px;
+}
+/* date */
+html>body thead.fixedHeader th + th {
+width: 380px;
+}
+/* bowl */
+html>body thead.fixedHeader th + th + th {
+width: 445px;
+}
+/* t1 */
+html>body thead.fixedHeader th + th + th + th {
+width: 420px;
+}
+/* t2 */
+html>body thead.fixedHeader th + th + th + th + th {
+width: 435px;
+}
+
+/* td items */
+html>body tbody.scrollContent td {
+width: 410px
+}
+
+html>body tbody.scrollContent td + td {
+width: 410px
+}
+
+html>body tbody.scrollContent td + td + td {
+width: 420px
+}
+html>body tbody.scrollContent td + td + td +  td {
+width: 425px
+}
+html>body tbody.scrollContent td + td + td +  td +  td  {
+width: 435px
+}
+
+/* My Original CSSS */
+
+table.center {
+margin-left:auto; 
+margin-right:auto;
+}
+h1{
+text-align: center;
+text-decoration: underline;
+}
+a:link.use, a:visited.use {
+background-color: white;
+color: black;
+border: 2px solid #696969;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+a:hover.use, a:active.use {
+background-color: #c1c1c1;
+}
+#current{
+color: black;
+}
+body{
+background-attachment: fixed;
+width:100%; 
+height:auto;
+}
+.css-serial {
+counter-reset: serial-number;
+}
+
+.css-serial td:first-child:before {
+counter-increment: serial-number; 
+content: counter(serial-number); 
+}
+
+.Anthony{
+	background-color: #679b58;
+}
+.Dee{
+	background-color: red;
+}
+.Cindy{
+	background-color: orange;
+}
+.Andy{
+	background-color: green;
+}
+.Sophia{
+	background-color: purple;
+}
+.Conn{
+	background-color: #42f4eb;
+}
+.Sean{
+	background-color: black;
+	color: white;
+}
+.Jan{
+	background-color: #42f477;
+}
+.Fred{
+	background-color: yellow;
+}
+.Beth{
+	background-color: blue;
+}
